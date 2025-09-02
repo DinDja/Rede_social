@@ -8,7 +8,7 @@ import Head from 'next/head';
 import Meta from '../../components/Meta';
 import Footer from "../../components/footer";
 
-const Single_post = () => {
+const Single_post = () => {  
 	const router = useRouter();
 	const pid = router.query.single_post;
 
@@ -272,7 +272,7 @@ const Single_post = () => {
 											</div>
 										</div>
 
-										{/* <!-- Related --> */}
+										{/* <!-- Related   --> */}
 										<h2 className="font-display text-jacarta-700 mb-8 text-3xl dark:text-white">
 											Related Posts
 										</h2>
